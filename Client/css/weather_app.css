@@ -1,0 +1,117 @@
+.headerNav{	
+		padding-top:20px	
+		height:150px;;
+		width:100%;
+		background-color: seagreen;
+		
+	}
+	.footerNav{
+		margin-top: -22px;			
+		height:100px;;
+		width:100%;
+		background-color: lightgreen;
+		float: left;
+	}
+	.searchNavBar{
+		padding-top:20px
+		padding-bottom:20px
+		height:150px;
+		width:100%;
+		background-color: turquoise;
+		float: left;
+	}
+	.leftNav{		
+		height:2252px;
+		width:17%;
+		background-color: bisque;
+		float: left;
+	}
+	.displayArea{
+		height: 100%;
+		float: right;		
+		margin-top: -2252px;
+		width:83%;
+		background-color: greenyellow;
+		border: 1px solid #ccc; 
+		
+	}
+	
+	.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('../images/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+	
+	table .twc-sticky-col {
+    border-right: none;
+    overflow: visible;
+    left: 0;
+    position: absolute;
+    top: auto;
+    width: 145px;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+}
+table th {
+    border: none;
+    color: #393939;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: solid 1px #999999;
+    background-color: #eef6fb;
+}
+table td {
+   
+    padding: 5px 10px;
+     height: 50px;
+	 border: none;
+    color: #393939;    
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: solid 1px #999999;
+    background-color: #eef6fb;
+}
+	.btn-orange {
+		background-color: #d26c22;
+		border-color: #c1631f;
+	}
+	.btn {
+		display: inline-block;
+		margin-bottom: 0;
+		font-weight: 200;
+		text-align: center;
+		vertical-align: middle;
+		cursor: pointer;
+		background-image: none;
+		border: 1px solid transparent;
+		white-space: nowrap;
+		padding: 6px 12px;
+		font-size: 14px;    
+		border: 1px solid #ccc;    
+		border-radius: 4px;
+	} 
+	.col-xs-9 {
+		position: relative;
+		min-height: 1px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.form-control {  
+		padding: 6px 12px;
+		background-color: #fff;
+		background-image: none;
+		border: 1px solid #ccc;    
+		border-radius: 4px;
+    }
